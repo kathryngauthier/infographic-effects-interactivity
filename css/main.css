@@ -26,40 +26,37 @@ body {
 }
 
 h1 {
-	font-family: sans-serif;
-	text-align: center;
-	font-size: 3em;
-	color: #fff;
-	text-transform: uppercase;
-	font-family: 'Podkova', serif;
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: #ff6633;
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 3em;
+  color: #fff;
+  text-transform: uppercase;
+  font-family: 'Podkova', serif;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #ff6633;
 }
 
 h2 {
-	font-family: sans-serif;
-	text-align: center;
-	color: #33ccff;
-	text-transform: uppercase;
-	font-family: 'Podkova', serif;
-	margin-right: 10%;
-	margin-left: 10%;
-	font-weight: 400;
+  font-family: sans-serif;
+  text-align: center;
+  color: #33ccff;
+  text-transform: uppercase;
+  font-family: 'Podkova', serif;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-weight: 400;
 }
 
 h3 {
-	font-family: sans-serif;
-	text-align: center;
-	color: red;
-	text-transform: uppercase;
-	font-family: 'Podkova', serif;
-	margin-right: 10%;
-	margin-left: 10%;
-	font-weight: 400;
-}
-
-.person {
-
+  font-family: sans-serif;
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+  font-family: 'Podkova', serif;
+  margin-right: 10%;
+  margin-left: 10%;
+  font-weight: 400;
+  font-size: 200%;
 }
 
 .star1 {
@@ -114,27 +111,36 @@ h3 {
 }
 
 .baseball {
-	animation: bounce 1s linear infinite;
+  animation: bounce 1s linear infinite;
 }
 
 @keyframes bounce {
-	0% {
-		transform: translate(0);
-	}
-	50% {
-		transform: translate(0, -100px);
-	}
-		100% {
-		transform: translate(0);
-	}
+  0% {
+    transform: translate(0);
+  }
+  50% {
+    transform: translate(0, -100px);
+  }
+    100% {
+    transform: translate(0);
+  }
 }
 
 hr {
     border: 0;
     height: 3px;
     background: #4167B0;
+}
+
+.mill{
+  width: 100%;
+}
+
+@media only screen and (min-width: 38em) {
+  /* 608px */
 
 }
+
 
 
 
