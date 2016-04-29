@@ -136,11 +136,32 @@ hr {
   width: 100%;
 }
 
-@media only screen and (min-width: 38em) {
-  /* 608px */
-
+@media only screen and (min-width: 15em) {
+  .prevention{
+    transform: rotate(90deg);
+    transform-origin: 0%;
+    margin-left: 50%;
+  }
 }
 
+@media only screen and (min-width: 38em) {
+  /* 608px */
+  .prevention{
+    transform: rotate(90deg);
+    transform-origin: 0%;
+    margin-left: 50%;
+  }
 
+  .rotate{
+    transform: rotate(270deg);
+    transform-origin: 50%;
+  }
+}
 
-
+@media only screen and (min-width: 60em) {
+    .prevention{
+    transform: rotate(0deg);
+    transform-origin: 0%;
+    margin-left: 0;
+  }
+}
