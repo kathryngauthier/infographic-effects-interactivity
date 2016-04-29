@@ -20,6 +20,8 @@ html {
 
 body {
   margin: 0;
+  margin-right: 10%;
+  margin-left: 10%;
   background-color: #d9f1fd;
 }
 
@@ -71,7 +73,7 @@ h3 {
 
 .star2 {
   opacity: 0;
-  transition: all 200ms ease-in;
+  transition: all 100ms ease-in;
 }
 
 .js-star2-animate {
@@ -80,7 +82,7 @@ h3 {
 
 .star3 {
   opacity: 0;
-  transition: all 200ms ease-in;
+  transition: all 4s ease-in;
 }
 
 .js-star3-animate {
@@ -88,7 +90,7 @@ h3 {
 }
 .star4 {
   opacity: 0;
-  transition: all 200ms ease-in;
+  transition: all 3s ease-in;
 }
 
 .js-star4-animate {
@@ -104,7 +106,7 @@ h3 {
 }
 .star6 {
   opacity: 0;
-  transition: all 200ms ease-in;
+  transition: all 1s ease-in;
 }
 
 .js-star6-animate {
