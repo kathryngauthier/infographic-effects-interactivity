@@ -116,6 +116,42 @@ h3 {
   animation: bounce 1s linear infinite;
 }
 
+.thing1 {
+  opacity: 0;
+  transition: all 200ms ease-in;
+}
+
+.js-thing1-animate {
+  opacity: 1;
+}
+
+.thing2 {
+  opacity: 0;
+  transition: all 100ms ease-in;
+}
+
+.js-thing2-animate {
+  opacity: 1;
+}
+
+.thing3 {
+  opacity: 0;
+  transition: all 4s ease-in;
+}
+
+.js-thing3-animate {
+  opacity: 1;
+}
+
+.thing4 {
+  opacity: 0;
+  transition: all 3s ease-in;
+}
+
+.js-thing4-animate {
+  opacity: 1;
+}
+
 @keyframes bounce {
   0% {
     transform: translate(0);
